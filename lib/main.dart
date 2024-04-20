@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hamburguesa_facil/config/theme/theme.controller.dart';
+import 'package:hamburguesa_facil/pages/home.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       return GetMaterialApp(
         debugShowCheckedModeBanner: false,
         theme: _themeController.themeData,
+        home: const Home(),
         initialBinding: BindingsBuilder(() {}),
       );
     });

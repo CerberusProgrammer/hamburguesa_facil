@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 class ThemeController extends GetxController {
   var isDarkTheme = false.obs;
   var isMaterial3 = true.obs;
-  var primaryColor = Colors.indigo.obs;
+  var primaryColor = Colors.red.obs;
 
   ThemeData get themeData => ThemeData(
         brightness: isDarkTheme.value ? Brightness.dark : Brightness.light,
