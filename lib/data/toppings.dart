@@ -104,20 +104,6 @@ final List<Topping> toppings = [
     ],
   ),
   Topping(
-    name: 'Salsa BBQ casera',
-    estimatedTime: 30.0,
-    ingredients: [
-      Ingredient(name: 'Ketchup', quantity: 200.0, measure: 'ml'),
-      Ingredient(name: 'Miel', quantity: 50.0, measure: 'ml'),
-      Ingredient(name: 'Vinagre de manzana', quantity: 50.0, measure: 'ml'),
-      Ingredient(name: 'Salsa Worcestershire', quantity: 20.0, measure: 'ml'),
-    ],
-    steps: [
-      'Mezcla todos los ingredientes en una cacerola.',
-      'Cocina a fuego lento durante 20 minutos, removiendo ocasionalmente.',
-    ],
-  ),
-  Topping(
     name: 'Aguacate en rodajas',
     estimatedTime: 5.0,
     ingredients: [
