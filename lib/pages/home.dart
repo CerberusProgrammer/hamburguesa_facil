@@ -53,10 +53,22 @@ class _HomeState extends State<Home> {
         itemCount: null,
         itemBuilder: (context, index) => FlipCard(
           front: RecipeCard(
-              child: Text(
-            items[index % items.length].name,
-            textAlign: TextAlign.center,
-          )),
+            child: Stack(
+              children: [
+                if (items[index % items.length].image != null)
+                  Image.asset(
+                    items[index % items.length].image!,
+                    fit: BoxFit.cover,
+                  ),
+                Center(
+                  child: Text(
+                    items[index % items.length].name,
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ],
+            ),
+          ),
           back: RecipeCard(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,

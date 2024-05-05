@@ -8,10 +8,7 @@ class RecipeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Center(child: child),
-      ),
+      child: Center(child: child),
     );
   }
 }
