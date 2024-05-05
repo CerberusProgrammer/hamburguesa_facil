@@ -21,6 +21,7 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Hornea a 180°C durante 20 minutos.',
     ],
+    image: 'assets/breads/perejil.jpeg',
   ),
   Bread(
     name: 'Pan de centeno',
@@ -39,6 +40,7 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Hornea a 180°C durante 25 minutos.',
     ],
+    image: 'assets/breads/centeno.jpeg',
   ),
   Bread(
     name: 'Pan de queso cheddar',
@@ -58,6 +60,7 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Hornea a 180°C durante 20 minutos.',
     ],
+    image: 'assets/breads/cheddar.jpeg',
   ),
   Bread(
     name: 'Pan de cerveza negra',
@@ -76,6 +79,7 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Hornea a 180°C durante 25 minutos.',
     ],
+    image: 'assets/breads/cerveza.jpeg',
   ),
   Bread(
     name: 'Pan Bao',
@@ -94,6 +98,7 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Cocina al vapor durante 15 minutos.',
     ],
+    image: 'assets/breads/bao.jpeg',
   ),
   Bread(
     name: 'Pan de arroz',
@@ -111,6 +116,7 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Hornea a 180°C durante 15 minutos.',
     ],
+    image: 'assets/breads/arroz.jpeg',
   ),
   Bread(
     name: 'Pan de remolacha',
@@ -130,6 +136,7 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Hornea a 180°C durante 20 minutos.',
     ],
+    image: 'assets/breads/remolacha.jpeg',
   ),
   Bread(
     name: 'Pan de espinacas',
@@ -151,6 +158,7 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Hornea a 180°C durante 20 minutos.',
     ],
+    image: 'assets/breads/espinacas.jpeg',
   ),
   Bread(
     name: 'Pan de cúrcuma',
@@ -169,6 +177,7 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Hornea a 180°C durante 20 minutos.',
     ],
+    image: 'assets/breads/curcuma.jpeg',
   ),
   Bread(
     name: 'Pan de carbón activado',
@@ -188,5 +197,6 @@ final List<Bread> breads = [
       'Divide la masa en porciones y dales forma de pan de hamburguesa.',
       'Hornea a 180°C durante 20 minutos.',
     ],
+    image: 'assets/breads/carbon.jpeg',
   ),
 ];

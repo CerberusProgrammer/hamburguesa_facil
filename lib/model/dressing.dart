@@ -6,5 +6,6 @@ class Dressing extends Recipe {
     required super.estimatedTime,
     required super.ingredients,
     required super.steps,
+    super.image,
   });
 }
